@@ -1,0 +1,1 @@
+export const BASE_URL = "https://expensetracker-291911.et.r.appspot.com"

@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 7rem;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 1;
+    
+}
+.outer-card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    width: 33rem;
+    border-radius: 3px;
+}
+
+.card-main {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+}
+
+.card p {
+    margin: 2px;
+}
+
+@media screen and (max-width:980px){
+    .outer-card{
+        display: flex;
+        flex-direction: column;
+    }
+}

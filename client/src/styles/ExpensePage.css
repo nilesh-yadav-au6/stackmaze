@@ -1,0 +1,40 @@
+.header {
+    margin: 2rem 8rem;
+    border-bottom: 1px solid lightcoral;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-div{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    align-items: center;
+}
+
+.scrollbar {
+    width: 200px;
+    height: 35rem;
+    overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media screen and (max-width:700px){
+    .header{
+        margin-left: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .total-div{
+        width: 15rem;
+    }
+}

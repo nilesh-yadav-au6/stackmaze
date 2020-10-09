@@ -1,0 +1,33 @@
+.form-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20rem;
+    margin: 0 8rem;
+}
+.text{
+    margin: 0.5rem;
+    background: transparent;
+    height: 3rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    background-color: #03DAC5;
+    border-color: transparent;
+    border-radius:2em;
+    font-size: 14px;
+}
+@media screen and (max-width:700px){
+    .form-div{
+        margin-left: 4rem;
+        width: 15rem;
+    }
+}
